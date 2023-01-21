@@ -1,0 +1,165 @@
+/*
+    Fuentes H1:
+        @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+body {
+    background: linear-gradient(#00cc11d7, #00983fc7, #00702fd8);
+    background-repeat: no-repeat; background-size: cover; 
+}
+/*
+    -----====Start header====-----
+*/
+/*
+    Contenedor Class: headerPrincipal
+*/
+.headerPrincipal{
+    margin: 0 auto; padding: 20px 0; 
+    width: 100%; height: 150px;
+    display: flex; flex-direction: row;
+    background-color: rgba(245, 245, 220, 0.068);
+}
+/*
+    Contenedor Class: logo
+*/
+.logo, .logo_footer{
+    width: 40%; padding: 20px 0 20px 20px;
+}
+.logo h1, .logo_footer h1{
+    font-size: 40px; color: whitesmoke; font-family: 'Creepster', cursive;
+    text-shadow: 2px 2px 1px #070707;
+}
+/*
+    Contenedor Class: menu_principal
+*/
+.menu_principal {
+    margin: 26px 0px; padding: 20px 0; 
+    display: flex; align-items: center; justify-content: right; width: 60%;
+}
+.menu_principal ul{
+    list-style: none; margin: 0 auto; color: #fff; 
+    
+}
+.menu_principal ul li{
+    padding: 5px 0 0 15px; display: inline-block;
+}
+.menu_principal ul li a{
+    font-size: 20px; color: #7a04db; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder; text-decoration: none;
+}
+.menu_principal ul li a:hover{
+    color: #048cdb; 
+}
+/*
+    -----====End header====-----
+*/
+
+.cont_info {
+    width: 100%; height: 100vh;
+    display: inline;
+}
+/*
+    -----====Start header====-----
+*/
+/*
+    Contenedor Class: cardHolder
+*/
+.cardHolder {
+    margin: auto; padding: 0 10px;
+    display: flex; flex-wrap: wrap; flex-direction: row; 
+    justify-content: center;
+    width: 900px; height: auto;
+    row-gap: 5px; column-gap: 5px;
+}
+/*
+    Contenedor Class: wrap
+*/
+/*.wrap {
+    display: flex; flex-wrap: wrap;
+}*/
+/*
+    Contenedor Class: card
+*/
+.card {
+    display: inline-block;
+    width: 250px;  height: 350px; background-color: #400050ce;
+    margin: auto; display: flex; flex-direction: column;
+    border-radius: 20px; border: 2px solid #4744156b;
+    padding: 10px 5px; box-shadow: 3px 4px 5px #3636316b ;
+}
+.card img {
+    margin: auto; border-radius: 5px;
+    width: 150px; height: 150px;
+}
+.card h2 {
+    font-size: 24px; color: antiquewhite; text-align: center;
+}
+.card p {
+    font-size: 16px; color: #070707; text-align: justify;
+}
+.card ul {
+    list-style: none; margin: 0; padding-top: 5px; padding-bottom: 5px;
+}
+.card ul li span {
+    font-size: 14px; font-weight: bolder; color: #7ece7e;
+}
+/*
+    footerPrincipal
+*/
+.footerPrincipal{
+    width: 100%; height: 150px; display: flex; 
+    flex-wrap: wrap; flex-direction: row; padding: 20px 0px; bottom: auto;
+    margin: 0 auto; background-color: rgba(245, 245, 220, 0.068);
+}
+/*
+    menu_secundario
+*/
+.menu_secundario {
+    margin: 26px 0px; padding: 20px 0; 
+    display: flex; align-items: center; justify-content: right; width: 50%;
+}
+.menu_secundario ul{
+    list-style: none; margin: 0 auto; color: #fff; 
+    
+}
+.menu_secundario ul li{
+    padding: 5px 0 0 15px; display: inline-block;
+}
+.menu_secundario ul li a{
+    font-size: 20px; color: #7a04db; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder; text-decoration: none;
+}
+.menu_secundario ul li a:hover{
+    color: #048cdb; 
+}
+/*
+
+*/
+.made_by {
+    background-color: rgba(54, 47, 47, 0.432); color: #fff; text-align: center;
+    width: 100%; height: 30px; margin: 0;
+}
+.made_by span{
+    font-size: 24px;
+}
+/*
+    Alerta
+*/
+.contAlert {
+    width: 100%; height: 100%; background: rgba(56, 56, 56, 0.671);
+    float: left; float: top; display: block;
+}
+.alerta {
+    width: 250px; height: 250px; margin: 0 auto;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    overflow: hidden; border: 1px solid #7ece7e;
+}
+.alerta h2{
+    font-size: 25px; color: #fc0000;
+}
+.alerta span{
+    font-size: 18px; color: #000;
+}
